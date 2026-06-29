@@ -176,3 +176,12 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+/* footer for Bottom copyright info section */
+.footer {
+    background-color: var(--white);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
