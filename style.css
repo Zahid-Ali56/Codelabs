@@ -1,0 +1,33 @@
+:root {
+    /* Color sets */
+    --mocha-mousse: #856F5C; 
+    --ethereal-blue: #A0D4E0; 
+    --moonlit-grey: #F2F0EA; 
+    --dark: #2B2927;
+    --white: #FFFFFF;
+    
+    /* Fonts settings */
+    --font-heading: 'Inter', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+    
+    /* Font sizes adjusting setup for laptop or mobiles */ 
+    --fs-h1: clamp(2rem, 5vw, 3.5rem);
+    --fs-h2: clamp(1.5rem, 3vw, 2rem);
+    --fs-text: clamp(0.95rem, 1vw + 0.5rem, 1.1rem);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] {
+    --moonlit-grey: #1E1C1A;
+    --dark: #F2F0EA;
+    --white: #2B2927;
+}
+
+/*Global formatting rules*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
