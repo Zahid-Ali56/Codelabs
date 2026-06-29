@@ -126,3 +126,53 @@ h1, h2, h3, h4 {
     background-color: var(--mocha-mousse);
     color: var(--white);
 }
+/*Responsive mobile layout grid logic*/
+.page-body-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+    padding: 2rem 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* Introduction landing layout section */
+.intro-banner {
+    background: linear-gradient(135deg, rgba(133, 111, 92, 0.1) 0%, rgba(160, 212, 224, 0.15) 100%);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    border-left: 5px solid var(--mocha-mousse);
+}
+.intro-banner h1 {
+    color: var(--mocha-mousse);
+}
+/* Dashboard status sidebar rules */
+/* Interface ancillary grid section */
+.side-widgets {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.widget-box {
+    background-color: var(--moonlit-grey);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.features-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+.feature-item-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    transition: var(--transition-smooth);
+}
+.item-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
